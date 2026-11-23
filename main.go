@@ -20,7 +20,7 @@ func main() {
 				Usage: "Najmanjša veljavna temperatura",
 				Value: -50,
 			},
-			&cli.IntFlag{
+			&cli.FloatFlag{
 				Name:  "maxTemp",
 				Usage: "Največja veljavna temperatura",
 				Value: 50,
